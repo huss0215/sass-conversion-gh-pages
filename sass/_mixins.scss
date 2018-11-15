@@ -1,5 +1,3 @@
-/* default for whole page */
-/* serif for the headings */
 /***********************************************
                 COLOUR NOTES
 light blue  #C7F7FF
@@ -14,21 +12,11 @@ dark grey   #222
 
                 DEFAULTS
 ***********************************************/
+
+
+
 /************************************************
                      MIXINS
 ************************************************/
-.warning, .error, .message {
-  border: 1px solid #cccccc;
-  padding: 10px;
-  color: #333333;
-}
 
-.error {
-  border-color: red;
-}
 
-.warning {
-  border-color: yellow;
-}
-
-/*# sourceMappingURL=main.css.map */

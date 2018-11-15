@@ -1,1 +1,24 @@
 // main SASS file
+
+@import '_variables';
+@import '_mixins';
+
+%message-base {
+  border: 1px solid #cccccc;
+  padding: 10px;
+  color: #333333;
+}
+
+.message {
+  @extend %message-base;
+}
+
+.error {
+  @extend %message-base;
+  border-color: red;
+}
+
+.warning {
+  @extend %message-base;
+  border-color: yellow;
+}
