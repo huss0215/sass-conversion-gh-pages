@@ -19,4 +19,13 @@ dark grey   #222
                      MIXINS
 ************************************************/
 
+@mixin flex {
+  display: -webkit-flex;
+  display: flex;
+}
+
+.bg-header {
+  @include flex;
+}
+
 

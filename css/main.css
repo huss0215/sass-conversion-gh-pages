@@ -1,5 +1,30 @@
-/* default for whole page */
-/* serif for the headings */
+body {
+  font: 100% Helvetica, sans-serif;
+  color: #89C0C9;
+
+}
+
+.bg-header {
+  nav{
+    ul {
+      margin: 0
+      padding: 0
+      list-style: none
+    }
+      li{
+      display: inline-block
+      }
+
+      a {
+        display: block
+        padding: 6px 12px
+        text-decoration: none
+      }
+
+}
+}
+
+
 /***********************************************
                 COLOUR NOTES
 light blue  #C7F7FF
